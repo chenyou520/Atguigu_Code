@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".okhttp.activity.OKHttpActivity">
+
+    <include layout="@layout/titlebar" />
+
+    <Button
+        android:id="@+id/btn_okhttp_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原生okhttp的get请求"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_okhttp_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原生okhttp的post请求"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_okhttputils_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okhttputils的get请求"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_okhttputils_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okhttputils的post请求"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_downloadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用okhttp-utils的下载大文件"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_uploadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用okhttp-utils上传文件"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用okhttp-utils请求图片"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btn_image_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用okhttp-utils在列表中请求图片"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除数据"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请求内容显示"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

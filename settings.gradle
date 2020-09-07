@@ -1,0 +1,6 @@
+include ':app', ':sample-okhttp', ':okhttputils-library', ':okhttpserver', ':okhttputils', ':OkHttpUtils-master', ':universalvideoview', ':universalvideoviewsample', ':jcvideoplayer-lib', ':JieCaoVideoPlayer', ':banner', ':banner-master', ':CountdownView-master', ':CountdownView_library', ':OpenDanmaku-sample', ':opendanmaku'
+rootProject.name='Atguigu_Code'
+include ':PullToRefresh_library'
+include ':pullToRefreshListFragment'
+include ':pullToRefreshViewPager'
+include ':PullToRefresh-sample'

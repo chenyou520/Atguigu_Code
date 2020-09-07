@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="uvv_green">#ff50b100</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_gray">#ffbbbbbb</color>
+
+    <color name="main_color">#5CB85C</color>
+
+    <color name="bg_color">#FF666666</color>
+    <color name="my_item_color">#ff0000</color>
+    <color name="default_bg">#979b9a</color>
+</resources>

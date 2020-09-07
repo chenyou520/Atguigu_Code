@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">android框架</string>
+    <string name="action_settings" tools:ignore="MissingTranslation">action_settings</string>
+    <string name="show" tools:ignore="MissingTranslation">show</string>
+    <string name="hide" tools:ignore="MissingTranslation">hide</string>
+    <string name="send" tools:ignore="MissingTranslation">send</string>
+    <string name="text_hint" tools:ignore="MissingTranslation">input text here</string>
+    <string name="empty_prompt" tools:ignore="MissingTranslation">please input text</string>
+
+    <style name="TabTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>
